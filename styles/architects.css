@@ -108,6 +108,42 @@ main > section{
 #quick-list{
     font-weight: 500;
 }
+/* features section rellated styles */
+.features{
+    gap: 140px;
+}
+#feature-section-title{
+border-left: 5px solid #ff900E;
+padding-left: 21px;
+}
+.feature-title{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+.feature-card{
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(30, 30, 30, 0.08);
+    margin-bottom: 20px;
+}
+.featured-architect img{
+    width: 100%;
+}
+/* buttton related css */
+#experience-badge{
+    padding: 45px 42px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -77px;
+}
+#experience-year{
+    font-size: 4rem;
+    font-weight: 700;
+}
 /* some fact related style */
 .facts-container{
     display: grid;
@@ -157,6 +193,7 @@ main > section{
 @media screen and (max-width:576px) {
     .navbar,
      .nav-links,
+     .features
       .teams{
         flex-direction: column;
     }
